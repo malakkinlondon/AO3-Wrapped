@@ -14,7 +14,7 @@ Here's the original reddit post where I found the project: https://www.reddit.co
 ## Instructions
 (Please note: you need a computer, doing it on your phone would be very difficult.)
 
-###Step 1: Export you AO3 bookmarks
+### Step 1: Export you AO3 bookmarks
 
 The most tiresome part of this project is exporting your bookmarks from AO3, since the platform does not currently offer a built-in way to export bookmarks as a CSV.
 
@@ -27,7 +27,7 @@ I recommend using Chrome for this process.
 
 *(I know exporting the history page by page is annoying but stick with it. If you're like me and love accurate statistical data, it's worth it)*
 
-###Step 2: Combine the CSV files
+### Step 2: Combine the CSV files
 
 One downside of this method is that it generates one CSV file per bookmarks page.
 
@@ -37,7 +37,7 @@ After confirming that the project worked, I looked for automatic CSV mergers and
 
 When using it, make sure to check "Files include headers", "Skip empty rows" and "Remove duplicate rows (must be exact)".
 
-###Step 3: Configure the notebook
+### Step 3: Configure the notebook
 
 Upload the merged bookmarks CSV file into your notebook environment (📁 icon).
 
@@ -52,7 +52,7 @@ BOOKMARK_CSV_PATH = "/content/Stats.csv"
 wrapped_year = 2025
 ```
 
-###Step 4: Run the notebook
+### Step 4: Run the notebook
 Click "Run all".
 
 The four images will appear in the file browser (📁 icon).
